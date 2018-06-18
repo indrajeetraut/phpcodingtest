@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'roboto';	
+}
+
+.navbar {
+	padding: 10px 0px;
+}
+.logo {
+	width: 80px;
+	height: auto;
+	float: left;
+}
+
+.navbar ul{
+	list-style-type: none;
+	float: right;
+}
+
+.navbar ul li {
+	display: inline-block;
+	line-height: 60px;
+	padding: 10px;
+}
+
+.navbar ul li a {
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar ul li a:hover {
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.myform {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.container {
+	min-height: 100%;
+}
+
+.data {
+	min-height: 80vh;
+}
+
+footer {
+	display: block;
+	position: relative;
+		
+	background-color: lightgray ;
+	width: 100%;
+}
+
+.footer-text {
+	text-align: left;
+	padding: 10px;
+}
